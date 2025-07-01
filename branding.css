@@ -1,0 +1,913 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 7281px;
+  position: relative;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 71px;
+  left: 1285px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #afafaf;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 71px;
+  left: 108px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #afafaf;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 71px;
+  left: 248px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #afafaf;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 71px;
+  left: 412px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #da1e28;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 71px;
+  left: 549px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #afafaf;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.desktop .each-branding-piece {
+  position: absolute;
+  width: 832px;
+  top: 300px;
+  left: 304px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 54.4px;
+  text-align: center;
+  letter-spacing: -1.09px;
+  line-height: 66.4px;
+}
+
+.desktop .span {
+  font-weight: 300;
+  letter-spacing: -0.59px;
+}
+
+.desktop .text-wrapper-6 {
+  font-family: "Young Serif", Helvetica;
+  letter-spacing: -0.59px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 122px;
+  height: 23px;
+  top: 777px;
+  left: 71px;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: -1px;
+  left: 98px;
+  background-image: url(https://c.animaapp.com/GJQYnIqS/img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .vector {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 92px;
+  height: 23px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 15.6px;
+  text-align: center;
+  letter-spacing: -0.31px;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.desktop .headline {
+  position: absolute;
+  top: 896px;
+  left: 91px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 64px;
+  letter-spacing: -6.40px;
+  line-height: 58.6px;
+  white-space: nowrap;
+}
+
+.desktop .a-lifestyle-brand {
+  position: absolute;
+  width: 1142px;
+  top: 988px;
+  left: 91px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 39.4px;
+  letter-spacing: -0.79px;
+  line-height: 48.1px;
+}
+
+.desktop .text-wrapper-8 {
+  font-weight: 300;
+  letter-spacing: -0.31px;
+}
+
+.desktop .text-wrapper-9 {
+  font-family: "Young Serif", Helvetica;
+  letter-spacing: -0.31px;
+}
+
+.desktop .phone {
+  position: absolute;
+  width: 347px;
+  height: 837px;
+  top: 1221px;
+  left: 1019px;
+  object-fit: cover;
+}
+
+.desktop .logo {
+  position: absolute;
+  width: 346px;
+  height: 346px;
+  top: 1221px;
+  left: 642px;
+  object-fit: cover;
+}
+
+.desktop .laptop {
+  position: absolute;
+  width: 917px;
+  height: 458px;
+  top: 1600px;
+  left: 71px;
+  object-fit: cover;
+}
+
+.desktop .thank-you-card {
+  position: absolute;
+  width: 539px;
+  height: 346px;
+  top: 1221px;
+  left: 72px;
+  object-fit: cover;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1461px;
+  height: 2549px;
+  top: 2135px;
+  left: -14px;
+}
+
+.desktop .paper {
+  position: absolute;
+  width: 1440px;
+  height: 1506px;
+  top: 694px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.desktop .overlap-wrapper {
+  position: absolute;
+  width: 273px;
+  height: 111px;
+  top: 811px;
+  left: 598px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  width: 271px;
+  height: 111px;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 235px;
+  height: 111px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-group-2 {
+  position: absolute;
+  width: 110px;
+  height: 111px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .subtract {
+  position: absolute;
+  width: 110px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 17px;
+  height: 34px;
+  top: 69px;
+  left: 93px;
+}
+
+.desktop .subtract-2 {
+  position: absolute;
+  width: 83px;
+  height: 74px;
+  top: 37px;
+  left: 26px;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  width: 20px;
+  height: 41px;
+  top: 48px;
+  left: 215px;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 15px;
+  height: 6px;
+  top: 9px;
+  left: 2px;
+}
+
+.desktop .ellipse-2 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 0;
+  left: 6px;
+  background-color: #ffffff;
+  border-radius: 3.52px / 3.63px;
+  transform: rotate(180deg);
+}
+
+.desktop .subtract-3 {
+  position: absolute;
+  width: 20px;
+  height: 26px;
+  top: 16px;
+  left: 0;
+}
+
+.desktop .MOGUL-MED-a {
+  position: absolute;
+  width: 138px;
+  height: 64px;
+  top: 18px;
+  left: 133px;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  top: 85px;
+  left: 133px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13.3px;
+  letter-spacing: -0.53px;
+  line-height: normal;
+}
+
+.desktop .flying-iphone-wrapper {
+  position: absolute;
+  width: 376px;
+  height: 522px;
+  top: 1019px;
+  left: 122px;
+  background-image: url(https://c.animaapp.com/GJQYnIqS/img/main.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .flying-iphone {
+  position: absolute;
+  width: 345px;
+  height: 489px;
+  top: 8px;
+  left: 21px;
+  object-fit: cover;
+}
+
+.desktop .smp {
+  top: 1019px;
+  left: 580px;
+  position: absolute;
+  width: 297px;
+  height: 298px;
+  object-fit: cover;
+}
+
+.desktop .smp-2 {
+  top: 1019px;
+  left: 847px;
+  position: absolute;
+  width: 297px;
+  height: 298px;
+  object-fit: cover;
+}
+
+.desktop .smp-3 {
+  top: 1019px;
+  left: 1113px;
+  position: absolute;
+  width: 297px;
+  height: 298px;
+  object-fit: cover;
+}
+
+.desktop .smp-4 {
+  top: 1288px;
+  left: 580px;
+  position: absolute;
+  width: 297px;
+  height: 298px;
+  object-fit: cover;
+}
+
+.desktop .smp-5 {
+  top: 1288px;
+  left: 1113px;
+  position: absolute;
+  width: 297px;
+  height: 298px;
+  object-fit: cover;
+}
+
+.desktop .smp-6 {
+  top: 1288px;
+  left: 847px;
+  position: absolute;
+  width: 297px;
+  height: 298px;
+  object-fit: cover;
+}
+
+.desktop .a-strategy-driven {
+  position: absolute;
+  width: 1151px;
+  top: 1609px;
+  left: 156px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 39.4px;
+  text-align: center;
+  letter-spacing: -0.79px;
+  line-height: 48.1px;
+}
+
+.desktop .mockup {
+  width: 980px;
+  height: 784px;
+  top: 1765px;
+  left: 244px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .rectangle {
+  left: 0;
+  background-color: #2d2d2d;
+  position: absolute;
+  width: 731px;
+  height: 762px;
+  top: 0;
+}
+
+.desktop .rectangle-2 {
+  left: 730px;
+  background-color: #ffffff;
+  position: absolute;
+  width: 731px;
+  height: 762px;
+  top: 0;
+}
+
+.desktop .ellipse-3 {
+  position: absolute;
+  width: 340px;
+  height: 329px;
+  top: 212px;
+  left: 192px;
+}
+
+.desktop .ellipse-4 {
+  position: absolute;
+  width: 340px;
+  height: 329px;
+  top: 212px;
+  left: 923px;
+}
+
+.desktop .ellipse-5 {
+  position: absolute;
+  width: 464px;
+  height: 454px;
+  top: 150px;
+  left: 133px;
+}
+
+.desktop .ellipse-6 {
+  position: absolute;
+  width: 464px;
+  height: 454px;
+  top: 150px;
+  left: 864px;
+}
+
+.desktop .shadow {
+  position: absolute;
+  width: 273px;
+  height: 336px;
+  top: 48px;
+  left: 456px;
+  object-fit: cover;
+}
+
+.desktop .main {
+  position: absolute;
+  width: 186px;
+  height: 297px;
+  top: 48px;
+  left: 456px;
+  object-fit: cover;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 269px;
+  height: 331px;
+  top: 48px;
+  left: 105px;
+  background-image: url(https://c.animaapp.com/GJQYnIqS/img/shadow-1@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .your-design-wrapper {
+  position: relative;
+  width: 183px;
+  height: 292px;
+  background-image: url(https://c.animaapp.com/GJQYnIqS/img/main-2@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .your-design {
+  position: absolute;
+  width: 180px;
+  height: 161px;
+  top: 132px;
+  left: 2px;
+  object-fit: cover;
+}
+
+.desktop .your-design-2 {
+  width: 188px;
+  height: 167px;
+  top: 180px;
+  left: 456px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .shadow-2 {
+  width: 283px;
+  height: 334px;
+  top: 379px;
+  left: 94px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .main-2 {
+  width: 192px;
+  height: 296px;
+  top: 379px;
+  left: 94px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .shadow-3 {
+  width: 277px;
+  height: 340px;
+  top: 373px;
+  left: 456px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .main-3 {
+  width: 188px;
+  height: 301px;
+  top: 373px;
+  left: 456px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .your-design-3 {
+  width: 188px;
+  height: 169px;
+  top: 512px;
+  left: 457px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .your-design-4 {
+  width: 198px;
+  height: 176px;
+  top: 512px;
+  left: 94px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .shadow-4 {
+  width: 293px;
+  height: 361px;
+  top: 48px;
+  left: 1158px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .main-4 {
+  width: 199px;
+  height: 319px;
+  top: 48px;
+  left: 1158px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .your-design-5 {
+  width: 201px;
+  height: 179px;
+  top: 189px;
+  left: 1156px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .group-4 {
+  position: absolute;
+  width: 296px;
+  height: 357px;
+  top: 48px;
+  left: 813px;
+}
+
+.desktop .overlap-3 {
+  position: relative;
+  height: 357px;
+}
+
+.desktop .shadow-5 {
+  width: 290px;
+  height: 357px;
+  top: 0;
+  left: 6px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .main-5 {
+  width: 197px;
+  height: 315px;
+  top: 0;
+  left: 6px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .your-design-6 {
+  width: 203px;
+  height: 180px;
+  top: 144px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .main-6 {
+  width: 199px;
+  height: 319px;
+  top: 384px;
+  left: 813px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .shadow-6 {
+  width: 285px;
+  height: 317px;
+  top: 397px;
+  left: 813px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .your-design-7 {
+  width: 203px;
+  height: 181px;
+  top: 520px;
+  left: 813px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .shadow-7 {
+  width: 297px;
+  height: 365px;
+  top: 384px;
+  left: 1154px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .main-7 {
+  width: 202px;
+  height: 323px;
+  top: 384px;
+  left: 1154px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .your-design-8 {
+  width: 203px;
+  height: 181px;
+  top: 527px;
+  left: 1162px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .mockup-2 {
+  width: 451px;
+  height: 376px;
+  top: 4701px;
+  left: 202px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .mockup-3 {
+  width: 565px;
+  height: 377px;
+  top: 4701px;
+  left: 670px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .mockup-4 {
+  width: 1031px;
+  height: 542px;
+  top: 5098px;
+  left: 202px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .headline-2 {
+  position: absolute;
+  top: 5731px;
+  left: 91px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 64px;
+  letter-spacing: -6.40px;
+  line-height: 58.6px;
+  white-space: nowrap;
+}
+
+.desktop .these-logo-designs {
+  position: absolute;
+  width: 735px;
+  top: 5842px;
+  left: 353px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 39.4px;
+  text-align: center;
+  letter-spacing: -0.79px;
+  line-height: 48.1px;
+}
+
+.desktop .overlap-4 {
+  position: absolute;
+  width: 1183px;
+  height: 1181px;
+  top: 6059px;
+  left: 148px;
+}
+
+.desktop .logo-2 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-3 {
+  top: 0;
+  left: 385px;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-4 {
+  top: 0;
+  left: 770px;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-5 {
+  top: 385px;
+  left: 0;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-6 {
+  top: 385px;
+  left: 385px;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-7 {
+  top: 384px;
+  left: 772px;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-8 {
+  top: 770px;
+  left: 0;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-9 {
+  top: 770px;
+  left: 385px;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+.desktop .logo-10 {
+  top: 770px;
+  left: 772px;
+  position: absolute;
+  width: 411px;
+  height: 411px;
+  object-fit: cover;
+}
+
+
+.nav-link {
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  display: inline-block;
+  color: #afafaf;
+}
+
+/* 🔴 Hover Effect: Text turns red */
+.nav-link:hover {
+  color: #da1e28;
+}
+
+/* ⬇️ Hover underline animation */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #da1e28;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* 🔘 Click tap animation */
+.nav-link:active {
+  transform: scale(0.95);
+}

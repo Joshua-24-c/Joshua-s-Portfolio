@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Joshua's Portfolio</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="print.css" />
+  </head>
+  
+  <body>
+    <div class="desktop" data-model-id="80:124">
+      <div class="div">
+        <a href="about.html" class="text-wrapper nav-link">About Me</a>
+        <div class="text-wrapper-2 nav-link">Print Design</div>
+        <a href="branding.html" class="text-wrapper-3 nav-link">Branding</a>
+        <div class="text-wrapper-4 nav-link">UI/UX Design</div>
+        <a href="index.html" class="text-wrapper-5 nav-link">Close</a>
+        <p class="i-approach-every">
+          <span class="span">I approach every project with </span>
+          <span class="text-wrapper-6">fresh perspective, adaptability</span>
+          <span class="text-wrapper-7">, </span>
+          <span class="span">and a </span>
+          <span class="text-wrapper-6">dedication to quality</span>
+          <span class="text-wrapper-7">.</span>
+        </p>
+        <div class="scroll-down">
+          <div class="text-wrapper-8">Scroll Down</div>
+          <img class="group" src="https://c.animaapp.com/2CIu6vSC/img/group-1000004561@2x.png" />
+        </div>
+
+        <div class="box">
+            <div class="poster-container">
+                <div class="poster-track">
+                    <img src="poster1.png" />
+                    <img src="poster2.png" />
+                    <img src="poster3.png" />
+                    <img src="poster4.png" />
+                    <img src="poster5.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="overlap">
+          <p class="this-is-a-selection">
+            <span class="text-wrapper-9">This is a selection of </span>
+            <span class="text-wrapper-10">brochure projects</span>
+            <span class="text-wrapper-9">I've worked on throughout the</span>
+            <span class="text-wrapper-10">years</span>
+            <span class="text-wrapper-11">.</span>
+          </p>
+          <img class="brochure" src="Brochre 01.png" />
+          <img class="brochure-2" src="Brochure 02.png" />
+          <img class="brochure-3" src="Brochure 03.png" />
+        </div>
+        <p class="i-approach-every-2">
+          <span class="text-wrapper-9">Presented here are</span>
+          <span class="text-wrapper-10">article projects</span>
+          <span class="text-wrapper-9"> I've worked on </span>
+          <span class="text-wrapper-10">over time,</span>
+          <span class="text-wrapper-9">each shaped by</span>
+          <span class="text-wrapper-10">purpose</span>
+          <span class="text-wrapper-9">and</span>
+          <span class="text-wrapper-10">platform</span>
+          <span class="text-wrapper-9">.</span>
+
+        </p>
+        <div class="overlap-2">
+          <img class="paper" src="https://c.animaapp.com/2CIu6vSC/img/paper.png" />
+          <p class="i-approach-every-3">
+            <span class="text-wrapper-9">This section highlights</span>
+            <span class="text-wrapper-10">infographics</span>
+            <span class="text-wrapper-9">and</span>
+            <span class="text-wrapper-10">print design projects</span>
+            <span class="text-wrapper-9">I've completed</span>
+            <span class="text-wrapper-10">across various formats.</span>
+          </p>
+          <img class="INFOGRAPHICS" src="Info 01.png" />
+          <img class="INFOGRAPHICS-2" src="Info 02.png" />
+          <img class="INFOGRAPHICS-3" src="Info 03.png" />
+          <img class="other" src="other 1.png" />
+        </div>
+        <img class="article-1" src="Article 01.png" />
+         <img class="article-2" src="Article 02.png" />
+        <img class="other-2" src="other 2.png" />
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const track = document.querySelector('.poster-track');
+
+  // Duplicate posters for smooth infinite scroll
+  const posters = Array.from(track.children);
+  posters.forEach(poster => {
+    const clone = poster.cloneNode(true);
+    track.appendChild(clone);
+  });
+
+  let position = 0;
+  const speed = 1.5; // adjust speed
+
+  function animate() {
+    position -= speed;
+
+    if (Math.abs(position) >= track.scrollWidth / 2) {
+      position = 0;
+    }
+
+    track.style.transform = `translateX(${position}px)`;
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>

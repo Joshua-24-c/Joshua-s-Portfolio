@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joshua's Portfolio</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="scale-wrapper">
+          <!-- Hero Section -->
+          <div class="overlap">
+            <div class="overlap-group">
+              <div class="headline">I’m</div>
+              <div class="text-wrapper">oshua</div>
+              <div class="headline-2">,</div>
+              <img class="img" src="https://c.animaapp.com/hkarlrEr/img/headline.svg" />
+              <img class="headline-3" src="https://c.animaapp.com/hkarlrEr/img/headline-1.svg" />
+              <div class="headline-4">esign</div>
+              <img class="intersect" src="https://c.animaapp.com/hkarlrEr/img/intersect@2x.png" />
+            </div>
+            <div class="headline-5">I</div>
+            <div class="headline-6">stuff</div>
+            <img class="rectangle" src="https://c.animaapp.com/hkarlrEr/img/rectangle-1.svg" />
+          </div>
+
+          <!-- Intro Text -->
+          <p class="with-a-passion-for">
+            With a passion for clean, functional design, I help turn ideas into visually compelling and user-friendly
+            experiences. I believe that great design bridges the gap between aesthetics and usability — whether it&#39;s a
+            mobile app, a brand identity, or a complete digital platform.
+          </p>
+
+          <!-- Animated Button -->
+          <div id="redirect-button" class="scroll-button">
+            <div class="overlap-2">
+              <img class="vector" src="https://c.animaapp.com/hkarlrEr/img/vector.svg" />
+              <img class="vector-2" src="https://c.animaapp.com/hkarlrEr/img/vector-1.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button Click Script -->
+    <script>
+      const button = document.getElementById("redirect-button");
+
+      button.addEventListener("click", () => {
+        button.classList.add("clicked");
+        setTimeout(() => {
+          window.location.href = "about.html";
+        }, 300);
+      });
+    </script>
+  </body>
+</html>
