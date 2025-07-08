@@ -119,6 +119,7 @@
 }
 
 .desktop .headline {
+  position: absolute;
   width: 888px;
   top: 0;
   left: 0;
@@ -126,9 +127,9 @@
   font-size: 118px;
   letter-spacing: -11.80px;
   line-height: 108.1px;
-  position: absolute;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
+  z-index: 2; /* ✅ Make sure this is on top */
 }
 
 .desktop .union {
@@ -137,6 +138,7 @@
   height: 629px;
   top: 1px;
   left: 0;
+  z-index: 1; /* ✅ Lower index */
 }
 
 .desktop .group {
@@ -150,7 +152,7 @@
 .desktop .text-wrapper-6 {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -950px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -159,6 +161,7 @@
   letter-spacing: -0.37px;
   line-height: 27.7px;
   white-space: nowrap;
+  z-index: 3; /* ✅ Make sure this is on top */
 }
 
 .desktop .img {
@@ -166,7 +169,8 @@
   width: 24px;
   height: 24px;
   top: 573px;
-  left: 1097px;
+  left: 145px;
+  z-index: 4; /* ✅ Make sure this is on top */
 }
 
 .desktop .vector {
